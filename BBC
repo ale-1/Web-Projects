@@ -1,0 +1,121 @@
+<!doctype html>  
+<html>
+<head>
+	<title>BBC News Website</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body> 
+	<div id="container">
+		<div id="topbar"> 
+			<div class="fixedWidth">
+				<div id ="logoDiv"> 
+
+				</div>
+
+				<div id="signInDiv">
+					Sign In
+
+				</div>	
+
+				<div id="topMenuDiv">
+					<ul>
+						<li>News</li>
+						<li>Sport</li>
+						<li> Weather</li>
+						<li>Player</li>
+						<li>TV</li>
+						<li>Radio</li>
+						<li>More...</li>
+
+					</ul>
+				</div>
+
+				<div id="searchBoxDiv">
+					<input type="text" placeholder="Search"/>
+				</div>
+			</div> 
+		</div>
+
+		<div class="break"> </div>
+
+		<div id="newsBar">
+			<div class="fixedWidth">
+
+				<p id="newsHeader">
+					NEWS <span id="UK">UK</span>
+				</p>
+
+			<div id="rss">
+				RSS <img src="Images/rss.png" />
+			</div>
+
+			<div class="break"></div>
+
+			<div id="topMenu">
+				<ul>
+					<li>Home</li>
+					<li>World</li>
+					<li class="selected">UK</li>
+					<li>England</li>
+					<li>Ireland</li>
+					<li>Scotland</li>
+					<li>Wales</li>
+					<li>Business</li>
+					<li>Politics</li>
+					<li>Health</li>
+					<li>Education</li>
+					<li>SciEnvironment</li>
+					<li>Technology</li>
+					<li style="border-right: none">Entertainment & Arts</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<div class="break"></div>
+
+<div id="content">
+	<div class="fixedWidth">
+		<p> <span class="date"> 24 March 2015</span> Last updateed at 15:23 </p>
+
+		<h1>Pollution to Spread Across England</h1>
+			<img class="headlineImage" src="Images/headerImage.jpg"/>
+		<div class="newsItem"
+			<p>Health warnings have been issued by the government sas pollution is spreading across England is forcast to hit high levels. </p>
+
+			<p class="links">
+				<a class="video" href> Why are pollution levels so high?</a> <br />
+
+				<a class="video" href> Saharan dust visible on cars</a> <br />
+
+				<a class="video" href>How Saharan dust reached the Uk What will polution do to us?</a> <br />
+
+				<a class="sound" href>Air pollution a 'serious issue'</a>
+			</p>
+		</div>
+
+		<div id="watchListen">
+			<h2>Watch/Listen</h2>
+			<div class="goBack">
+					<h2> &lt; </h2>
+			</div>	
+			
+				<img class="watchListen" src="Images/video.jpg" />
+
+			<div class="goForward">
+				<h2> &gt; </h2>
+			</div>
+
+			<p class="links">
+				<a href> Trevor Noah's UK Connection </a>
+			</p>
+			
+		</div>	
+	</div>
+</div>
+
+
+
+</body>
+</html>
